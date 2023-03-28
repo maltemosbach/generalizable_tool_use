@@ -24,7 +24,34 @@
             </div>
             <br>
         </div>
+        
+        
 
+        <div class="abstract">
+            <b>Abstract: </b> Tool use, a hallmark feature of human intelligence, remains a challenging problem in robotics due the complex contacts and high-dimensional action space.
+                    In this work, we present a novel method to enable reinforcement learning of tool use behaviors. 
+                    Our approach provides a scalable way to learn the operation of tools in a new category using only a single demonstration. 
+                    To this end, we propose a new method for generalizing grasping configurations of multi-fingered robotic hands to novel objects. 
+                    This is used to guide the policy search via favorable initializations and a shaped reward signal.
+                    The learned policies solve complex tool use tasks and generalize to unseen tools at test time.
+            <br><br>
+        </div>
+
+        <h3>Overview</h3>
+        How can we guide our policy on the challenging task of interactive grasping and tool use with minimal supervision? We propose to use a grasping demonstration to guide the policy search and utilize non-rigid registration to transfer the demonstration to unseen instances.
+
+        <img src="assets/images/banner.png" width=100%>
+        <br><br>
+
+        <h3>Non-rigid Grasp-pose Transfer</h3>
+        <p>
+            The video below shows how a policy trained on a training object-set, guided by a single demonstration, is transferred to an unseen object in a zero-shot manner.
+        </p>
+        <div align="center">
+            <video width="85%" autoplay loop muted type="loop">
+                <source src="assets/videos/banner_animated.mp4" type="video/mp4">
+            </video>
+        </div>
         <br><br>
 
         <!--Footer.-->
