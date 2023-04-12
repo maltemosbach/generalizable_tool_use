@@ -54,6 +54,118 @@
         </div>
         <br><br>
 
+        <h3>Sample Rollouts</h3>
+        The following rollouts show that the policy is able to solve the given tasks for a variety of tools. 
+        The learned behaviors for the <i>drive nail</i> task while technically successful, do not resemble human-like operation of a hammer. 
+        The agent pushes the nail in rather than hammering it in. 
+        A more detailed reward function that enforces repeated hammer swings could produce more realistic behaviors.
+
+        <div align="center">
+            <table class="center">
+                <tr style=font-size:15pt>
+                    <td style='text-align:center; vertical-align:middle' colspan="3">Place mug</td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/place_mug_1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/place_mug_2.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/place_mug_3.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table class="center">
+                <tr style=font-size:15pt>
+                    <td style='text-align:center; vertical-align:middle' colspan="3">Position drill</td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/position_drill_1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/position_drill_2.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/position_drill_3.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table class="center">
+                <tr style=font-size:15pt>
+                    <td style='text-align:center; vertical-align:middle' colspan="3">Drive nail</td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/drive_nail_1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/drive_nail_2.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/drive_nail_3.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <h3>Learned Behaviors</h3>
+        To illustrate the advantage of learning <i>interactive</i> policies for tool-use tasks, we highlight learned grasping behaviors of a hammer handle.
+        A round handle (left) is easy to grasp because it slides into the hand when closing the fingers.
+        Square handles (right), on the other hand, do not have this convenient property. 
+        Instead, the policy learns to give the hammer an upwards momentum and quickly move the hand downward to catch the handle. 
+        This behavior is then repeated if necessary.
+
+        <div align="center">
+            <table class="center">
+                <tr style=font-size:15pt>
+                    <td style='text-align:center; vertical-align:middle' colspan="1">Round handle</td>
+                    <td style='text-align:center; vertical-align:middle' colspan="2">Square handles</td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/grasping_round.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/grasping_square_1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <video width="310" class="center" controls>
+                            <source src="assets/videos/grasping_square_2.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+
         <!--Footer.-->
         <br><br><br>
         <p style="text-align:left;">
