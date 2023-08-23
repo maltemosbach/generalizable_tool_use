@@ -1,5 +1,5 @@
 @inproceedings{mosbach2023,
-  author={Mosbach, Malte and and Behnke, Sven},
+  author={Mosbach, Malte and Behnke, Sven},
   booktitle={IEEE 19th International Conference on Automation Science and Engineering (CASE)}, 
   title={Learning Generalizable Tool Use with Non-rigid Grasp-pose Registration}, 
   year={2023},
